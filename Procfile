@@ -1,1 +1,1 @@
-web: python restart.py
+web: python3 web.py
