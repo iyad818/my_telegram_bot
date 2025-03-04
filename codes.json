@@ -1,0 +1,58 @@
+{
+    "A63TONR62ESH": {
+        "max_users": 1,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "20:00:00"
+    },
+    "G9FM6TLQLZBF": {
+        "max_users": 10,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "1:00:00"
+    },
+    "D2SQQNEPGLOF": {
+        "max_users": 2,
+        "used_users": [],
+        "duration": "1 day, 0:00:00"
+    },
+    "QY4N3M5XR74P": {
+        "max_users": 5,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "00:30"
+    },
+    "T1N8RX05D447": {
+        "max_users": 1,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "07:50"
+    },
+    "1M958CEZHHJK": {
+        "max_users": 2,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "01:00"
+    },
+    "MNE1L1AX7N11": {
+        "max_users": 2,
+        "used_users": [
+            "7192243354"
+        ],
+        "duration": "02:00"
+    },
+    "UFOV1G4LPW0M": {
+        "max_users": 3,
+        "used_users": [
+            "7192243354",
+            "7058568867",
+            "7471298952"
+        ],
+        "duration": "00:30"
+    }
+}
