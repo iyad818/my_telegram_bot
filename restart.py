@@ -2,14 +2,17 @@ import os
 import time
 import subprocess
 
-def restart_bot():
+def start_bot():
     while True:
-        try:
-            # محاولة لتشغيل البوت
-            subprocess.run(["python", "bot.py"], check=True)
-        except subprocess.CalledProcessError:
-            print("البوت توقف، محاولة إعادة تشغيله...")
-            time.sleep(10)  # الانتظار 10 ثواني قبل المحاولة مرة أخرى
+        # تشغيل ملف البوت
+        process = subprocess.Popen(['python', 'bot.py'])
+
+        # الانتظار حتى ينتهي تشغيل البوت
+        process.communicate()
+
+        # إذا توقف البوت، سيتم إعادة تشغيله بعد 5 ثواني
+        print("Bot stopped, restarting...")
+        time.sleep(5)
 
 if __name__ == "__main__":
-    restart_bot()
+    start_bot()
