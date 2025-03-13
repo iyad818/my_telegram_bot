@@ -14,7 +14,7 @@ from telebot.types import LabeledPrice, PreCheckoutQuery
 from datetime import datetime, timedelta
 
 
-TOKEN = "7312710877:AAGgO0DlOSwOhOfDKZganTkbgN2dJX-hB6Y"
+TOKEN = "7312710877:AAGM765_nOLlpzzaAlNP0ib6KKxojt2bC18"
 bot = telebot.TeleBot(TOKEN, parse_mode="Markdown")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # يحصل على مسار مجلد السكريبت الرئيسي
 API_URL = "https://lookup.binlist.net"
